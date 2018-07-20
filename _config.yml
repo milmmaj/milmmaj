@@ -1,0 +1,18 @@
+title: Milena Majczak
+email:
+#description: 
+
+social:
+  - title: twitter
+    url: https://twitter.com/milenamajczak
+  - title: facebook
+    url: https://facebook.com/milena.majczak
+  - title: linkedin
+    url: https://www.linkedin.com/in/milena-majczak
+
+#markdown: kramdown
+#highlighter: rouge
+#permalink: pretty
+#paginate: 5
+#gems: [jekyll-paginate, jekyll-feed]
+

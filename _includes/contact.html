@@ -1,0 +1,23 @@
+
+<section id="contact" class="contact bg-primary">
+    <div class="container">
+        <h2>Let's Get In Touch!</h2>
+        <ul class="list-inline list-social">
+        {% for network in site.social %}
+            <li class="social-{{ network.title }}">
+                <a href="{{ network.url }}" class="btn-social btn-outline"><i class="fa fa-fw fa-{{ network.title }}"></i></a>
+            </li>
+        {% endfor %}
+<!--
+        		<li><i class="fa fa-envelope fa-5x"></i><p> milmmaj{@}gmail.com</p></li>
+-->
+		
+        </ul>
+
+    </div>
+</section>
+<footer>
+    <div class="container">
+        <p><h4>&copy; 2018 Milena Majczak. All Rights Reserved.</h4></p>
+    </div>
+</footer>

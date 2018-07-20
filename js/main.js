@@ -1,0 +1,4 @@
+!function(t){"use strict";t("a.page-scroll").bind("click",function(e){var i=t(this);t("html, body").stop().animate({scrollTop:t(i.attr("href")).offset().top-50},1250,"easeInOutExpo"),e.preventDefault()}),t("body").scrollspy({target:".navbar-fixed-top",offset:51}),t(".navbar-collapse ul li a").click(function(){t(".navbar-toggle:visible").click()}),t("h1").fitText(1.2,{minFontSize:"35px",maxFontSize:"65px"}),t("#mainNav").affix({offset:{top:100}}),(new WOW).init()}(jQuery);
+(function($){"use strict";$('a.page-scroll').bind('click',function(event){var $anchor=$(this);$('html, body').stop().animate({scrollTop:($($anchor.attr('href')).offset().top-50)},1250,'easeInOutExpo');event.preventDefault()});$('body').scrollspy({target:'.navbar-fixed-top',offset:51})
+$('.navbar-collapse ul li a').click(function(){$('.navbar-toggle:visible').click()});$("h1").fitText(1.2,{minFontSize:'35px',maxFontSize:'65px'});$('#mainNav').affix({offset:{top:100}})
+new WOW().init()})(jQuery)
