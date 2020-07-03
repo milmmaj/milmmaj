@@ -3,6 +3,7 @@ email:
 #description: 
 google_analytics: "UA-121776954-1"
 disqus_account: milmaj
+baseurl: https://github.com/milmmaj/milmmaj
 
 social:
   - title: twitter
